@@ -1,0 +1,9 @@
+# AIOSS ledger v1
+# project: GOVERNMENT/OPENCONTRACTORS
+# records: 5
+# head: a819cf76c57ab26661fbe38d5f651126bd41f591d36c4efcd3a0d9cf518f84c5
+{"digest": "8676eb2de67e7bb5422fdafa94c12beafa5db8115290801994c4cad35c09cb7d", "kind": "bench-report", "path": "BENCH.json", "payload_sha3": "e3d37c10d319ab0be8578b3ab78f243e4847820178ee74ed55976a57a797d1b5", "prev": "5a5a9db5fb708ae61804306200e7a9e31853dde596c5f14d2303d4349fe14b2d", "seq": 0, "ts": "2026-10-09T05:53:08Z"}
+{"digest": "f53aa0a06702b91a4134c0ff3d152c8c1f4a254935ee6ab0c28128e4c7e94329", "kind": "result-register", "path": "ISOLATED_LAB_RESULTS/03_Result_Register.md", "payload_sha3": "f2e064758245f4dd5f60f37ff19a5996c30003a89b33e92ae98d95a0301366b8", "prev": "8676eb2de67e7bb5422fdafa94c12beafa5db8115290801994c4cad35c09cb7d", "seq": 1, "ts": "2026-10-09T05:53:08Z"}
+{"digest": "2625c2d76b9020568dc15eefa9a279e7fe584679758b10e53330ab13a09f0e32", "kind": "readme", "path": "README.md", "payload_sha3": "9fc4e1bb0a27fa0227854a504d5c28cdf4d4d53da740581a767ce8922f54e892", "prev": "f53aa0a06702b91a4134c0ff3d152c8c1f4a254935ee6ab0c28128e4c7e94329", "seq": 2, "ts": "2026-10-09T05:53:08Z"}
+{"digest": "515bf8557a162234de38fdb3af17021978011267c2fab88e9724074d262b04dc", "kind": "licence", "path": "ANTICOMMONS_LICENSE.md", "payload_sha3": "7c0743c08e82f6c531287101d4a1e3bc462044b9ba1e83410ab501b97b24a3db", "prev": "2625c2d76b9020568dc15eefa9a279e7fe584679758b10e53330ab13a09f0e32", "seq": 3, "ts": "2026-10-09T05:53:08Z"}
+{"digest": "a819cf76c57ab26661fbe38d5f651126bd41f591d36c4efcd3a0d9cf518f84c5", "kind": "notice", "path": "NOTICE", "payload_sha3": "2ebea01a6d38fe4e50c3bae7abe3e6eda6c861b372bd34cc2fc5062011b9779e", "prev": "515bf8557a162234de38fdb3af17021978011267c2fab88e9724074d262b04dc", "seq": 4, "ts": "2026-10-09T05:53:08Z"}
