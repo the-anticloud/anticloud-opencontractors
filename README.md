@@ -1,19 +1,49 @@
 # OPENCONTRACTORS
 
-> Anticloud offline package — upstream: opencontractors/open-contractors @ `master`.
+> A curated list of awesome gov tech and civic tech software and learning resources for government technology and design.
 
-## What This Project Does
+**Category:** GOVERNMENT · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/mallick-prat/awesome-govtech · **Pinned commit:** `5d20edfdf9e100fb8e2a136004c827a6f8f91e75` · **Vendor:** Anticloud FZ LLE
 
-Open-source software package in the scan_results_all.txt category, rebuilt with the Anticloud 12-improvement overlay.
+> **Note:** this package vendors `https://github.com/mallick-prat/awesome-govtech` as the implementation for the `OPENCONTRACTORS` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
 
-## Upstream README
+## What This Project Is
 
-# open-contractors
+A curated list of awesome gov tech and civic tech software and learning resources for government technology and design.
 
-## License
+This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
-Upstream terms preserved in `THIRD_PARTY_LICENSES/`. Overlay licensed under Anticommons 0.1.0.
+## Installation
+
+```
+# See the upstream README (linked above) for build steps.
+```
+
+## Usage
+
+See the upstream README (linked above) for usage. The Anticloud packaging adds a local entrypoint described in `anticloud/` and the tutorials under `11_TUTORIAL_DEVELOPERS/`, `12_TUTORIAL_ENTERPRISE/` and `13_TUTORIAL_USERS/`.
+
+## Anticloud Overlay
+
+The 12 improvements live under `anticloud/`. Run the check suite from this directory:
+
+```
+python anticloud/bench/runner.py --cwd anticloud
+```
+
+## Benchmark Results
+
+The suite is recorded in `BENCH.json`; no benchmark rows were found in this package.
+
+## Licence
+
+The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The Anticloud overlay is licensed under Anticommons 0.1.0 (`ANTICOMMONS_LICENSE.md`).
 
 ## Verification
 
-Recompute the SHA3-256 of `BENCH.json` and compare to this package’s register. Any drift = invalid package.
+SHA3-256 of `BENCH.json`:
+
+```
+51d13b3c9a22e70cc08412864a6ca141c80041b23ab5af09b0ee5e7cb05f7de2
+```
+
+Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

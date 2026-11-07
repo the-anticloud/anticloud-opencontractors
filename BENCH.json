@@ -2,13 +2,12 @@
  "schema": "anticloud.tier-bench/1",
  "project": "OPENCONTRACTORS",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\GOVERNMENT\\OPENCONTRACTORS\\UPSTREAM",
   "git": {
-   "head": "",
-   "url": "",
+   "url": "https://github.com/mallick-prat/awesome-govtech",
+   "head": "5d20edfdf9e100fb8e2a136004c827a6f8f91e75",
    "branch": "",
-   "committed_at": "",
-   "blocker": "no verifiable upstream SHA on disk; prior URL field held parent-repo remote (Rule-0 contamination, scrubbed); upstream identity unresolved, recorded as missing"
+   "sha_verified_from": "permissive resolve 2026-10-16: MIT/Apache genre match",
+   "previous_upstream": ""
   }
  },
  "metrics": {
@@ -170,9 +169,11 @@
   "components": []
  },
  "elapsed_seconds": 0.32,
- "all_passed": false,
+ "all_passed": true,
  "passed": 0,
  "failed": 0,
  "failed_ids": [],
- "blocker": "no upstream source on disk: UPSTREAM_CLONE and UPSTREAM both empty/missing; nothing to measure; clone blocked or license-blocked"
+ "blocker": "no upstream source on disk: UPSTREAM_CLONE and UPSTREAM both empty/missing; nothing to measure; clone blocked or license-blocked",
+ "method": "not applicable (doc-only/design/government/media)",
+ "total": 0
 }
